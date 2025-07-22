@@ -7,3 +7,80 @@
     font-size: 16px;
     line-height: 20px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+
+    background-image: url("./images/background_header.svg");
+    background-color: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    height: 80px;
+    width: 58px;
+}
+
+.nav__links {
+    display: flex;
+    margin: 8px 0 0;
+    column-gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav__link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title {
+    max-width: 635px;
+    font-size: 62px;
+    line-height: 76px;
+    font-weight: 500;
+    margin: 128px 0 0 0;
+}
+
+.header__description {
+    max-width: 515px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 32px 0 0 0;
+}
+
+.header__image {
+    max-width: 636px;
+}
+
+.header__footer {
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.header__schedule {
+    margin: 0;
+    color: #838383;
+}
+
+.header__address {
+    margin: 0;
+    color: #838383;
+}
