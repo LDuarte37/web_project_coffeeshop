@@ -53,6 +53,9 @@
 }
 
 .header__title {
+    padding-top: 183px;
+    padding-left: 80px;
+    margin: 0;
     max-width: 709px;
     font-size: 62px;
     line-height: 76px;
@@ -78,6 +81,9 @@
 }
 
 .header__description {
+    padding-top: 28px;
+    padding-left: 80px;
+    margin: 0;
     max-width: 683px;
     font-family: "Noto Serif";
     font-style: normal;
