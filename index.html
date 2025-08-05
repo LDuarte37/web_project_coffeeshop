@@ -120,6 +120,7 @@
                     <h2 class="reservation__title">Reservar una mesa</h2>
 
                     <form class="form reservation__form">
+                        <fieldset class="form__fieldset">
                             <label class="form__label" for="name"
                                 >Nombre *</label
                             >
@@ -131,7 +132,8 @@
                                 placeholder="Nombre"
                                 required
                             />
-
+                        </fieldset>
+                        <fieldset class="form__fieldset">
                             <label class="form__label" for="guests"
                                 >Número de comensales *</label
                             >
@@ -145,7 +147,8 @@
                                 max="8"
                                 required
                             />
-
+                        </fieldset>
+                        <fieldset class="form__fieldset">
                             <label class="form__label" for="date"
                                 >Fecha y hora *</label
                             >
@@ -156,7 +159,8 @@
                                 name="date"
                                 required
                             />
-
+                        </fieldset>
+                        <fieldset class="form__fieldset">
                             <label class="form__label" for="email"
                                 >Tu correo electrónico *</label
                             >
@@ -168,19 +172,22 @@
                                 placeholder="email@email.com"
                                 required
                             />
+                        </fieldset>
 
                         <button class="form__button" type="submit">
                             Reservar una mesa
                         </button>
 
-                        <label class="form__label form__label--checkbox">
-                            <input
+                        <label class="form__label">
+                            <div class="form__label--checkbox">
+                                <input
                                 class="form__checkbox"
                                 type="checkbox"
                                 name="terms"
                                 required
-                            />
-                            Acepto los términos de uso
+                                />
+                                Acepto los términos de uso
+                            </div>
                         </label>
                     </form>
                 </section>

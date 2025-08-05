@@ -200,7 +200,7 @@
     */
 /* ===== Bloque principal ===== */
 .reservation {
-    background-color: #dfefff;
+    background-color: #d9e7ff;
     background-image: url(../images/background_reservation.svg);
     background-size: cover;
     background-position: center;
@@ -214,9 +214,11 @@
 
 /* ===== Título ===== */
 .reservation__title {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 36px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 52px;
+    font-size: 44px;
     text-align: center;
     color: #000;
     margin-bottom: 80px;
@@ -224,7 +226,6 @@
 
 /* ===== Contenedor del formulario ===== */
 .reservation__form {
-    background-color: #ffffff;
     padding: 0 20px;
     max-width: 385px;
     width: 100%;
@@ -244,16 +245,24 @@
 }
 
 .form__label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
     display: flex;
     flex-direction: column;
-    font-size: 14px;
     color: #000000;
     gap: 8px;
 }
 
 .form__input {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
     padding: 15px;
-    font-size: 16px;
     border-radius: 4px;
     border: 1px solid #ccc;
     width: 100%;
@@ -262,10 +271,13 @@
 
 /* ===== Botón ===== */
 .form__button {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
     background-color: #2f80ed;
     color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
     border: none;
     border-radius: 4px;
     padding: 15px 0;
