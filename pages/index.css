@@ -221,7 +221,7 @@
     font-size: 44px;
     text-align: center;
     color: #000;
-    margin-top: auto;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 80px;
@@ -252,8 +252,6 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    display: flex;
-    flex-direction: column;
     color: #000000;
     gap: 8px;
     margin-bottom: 8px;
@@ -294,7 +292,7 @@
 }
 
 /* ===== Checkbox ===== */
-.form__label--checkbox {
+.form__label-checkbox {
     display: flex;
     align-items: center;
     font-size: 14px;
