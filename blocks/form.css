@@ -14,7 +14,6 @@
     font-size: 16px;
     line-height: 20px;
     color: #000000;
-    gap: 8px;
     margin-bottom: 8px;
 }
 
@@ -52,7 +51,7 @@
     opacity: 0.7;
 }
 
-/* ===== Checkbox ===== /
+/* ===== Checkbox ===== */
 .form__label--checkbox {
     display: flex;
     align-items: center;
