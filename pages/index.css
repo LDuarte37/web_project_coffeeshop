@@ -1,3 +1,12 @@
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/nav.css);
+@import url(../blocks/recipes.css);
+@import url(../blocks/reservation.css);
+@import url(../blocks/form.css);
+@import url(../blocks/footer.css);
+
+/*
 .page {
     min-width: 1100px;
     max-width: 1600px;
@@ -181,7 +190,6 @@
     line-height: 30px;
 }
 
-/*
 .reservation{
     background-color: #D9E7FF;
     padding: 100px 80px 215px;
@@ -197,14 +205,13 @@
     flex-direction: column;
     gap: 20px;
 }
-    */
-/* ===== Bloque principal ===== */
+/* ===== Bloque principal ===== *
 .reservation {
     background-color: #dfefff;
     background-image: url(../images/background_reservation.svg);
     background-size: cover;
     background-position: center;
-
+    
     padding-top: 100px;
     padding-bottom: 120px;
     display: flex;
@@ -212,7 +219,7 @@
     align-items: center;
 }
 
-/* ===== Título ===== */
+/* ===== Título ===== /
 .reservation__title {
     font-size: 32px;
     font-weight: 700;
@@ -222,7 +229,7 @@
     margin-bottom: 80px;
 }
 
-/* ===== Contenedor del formulario ===== */
+/* ===== Contenedor del formulario ===== /
 .reservation__form {
     background-color: #ffffff;
     padding: 0 20px;
@@ -233,7 +240,7 @@
     flex-direction: column;
 }
 
-/* ===== Campos del formulario ===== */
+/* ===== Campos del formulario ===== /
 .form__fieldset {
     border: none;
     padding: 0;
@@ -260,7 +267,7 @@
     box-sizing: border-box;
 }
 
-/* ===== Botón ===== */
+/* ===== Botón ===== /
 .form__button {
     background-color: #2f80ed;
     color: #ffffff;
@@ -278,7 +285,7 @@
     opacity: 0.7;
 }
 
-/* ===== Checkbox ===== */
+/* ===== Checkbox ===== /
 .form__label--checkbox {
     display: flex;
     align-items: center;
@@ -293,3 +300,5 @@
     height: 20px;
     accent-color: #2f80ed;
 }
+
+*/

@@ -1,0 +1,33 @@
+.reservation {
+    background-color: #dfefff;
+    background-image: url(../images/background_reservation.svg);
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ===== Título ===== */
+.reservation__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 80px;
+}
+
+/* ===== Contenedor del formulario ===== */
+.reservation__form {
+    background-color: #ffffff;
+    padding: 0 20px;
+    max-width: 385px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
